@@ -12,7 +12,7 @@
 
 <ul>
   <li>
-    Numerical methods
+    Obfuscation
   </li>
   <li>
     Software design
@@ -40,6 +40,11 @@
     <a href="https://ziglang.org/">
       <img src="logo/Zig.svg" alt="Zig" style="height: 50px"/>
     </a>
+  </div>
+</div>
+
+<div align="center" style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center, align-items: center" >
+  <div style="flex: 0 0 auto; padding: 2px 2px">
     <a href="https://www.wolfram.com/language/">
       <img src="logo/Wolfram.png" alt="Wolfram" style="height: 50px"/>
     </a>
