@@ -9,12 +9,12 @@ import (
 	"os"
 )
 
-func getToken() string {
-	envVariable := "TOKEN"
+const githubTokenKey = "GITHUB_TOKEN"
 
-	value, exists := os.LookupEnv(envVariable)
+func getToken() string {
+	value, exists := os.LookupEnv(githubTokenKey)
 	if !exists {
-		panic(fmt.Sprintf("Environment variable %s is not set", envVariable))
+		panic(fmt.Sprintf("Environment variable %s is not set", githubTokenKey))
 	}
 
 	return value
