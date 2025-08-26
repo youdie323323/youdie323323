@@ -1,0 +1,112 @@
+<svg
+    version="1.1"
+    width="{{ .Domain.Width }}"
+    height="{{ .Domain.Height }}"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    role="img"
+>
+    <style>
+        * {
+        font-family: "Courier New";
+        }
+
+        rect.border {
+        stroke: #888888;
+        fill: #ffffff;
+        }
+
+        rect.graph {
+        stroke-width: 2.5;
+        }
+
+        rect.lang {
+        fill: "#ffffff";
+        stroke-width: 2.5;
+        }
+
+        text {
+        dominant-baseline: middle;
+        font-size: medium;
+        font-weight: bold;
+        }
+
+        text.title {
+        font-size: x-large;
+        fill: #2f80ed;
+        }
+
+        text.descr {
+        fill: #000000;
+        }
+    </style>
+
+    <rect
+        class="border"
+        x="{{ .Border.x }}"
+        y="{{ .Border.y }}"
+        width="{{ .Border.width }}"
+        height="{{ .Border.height }}"
+        rx="{{ .Border.round }}"
+        ry="{{ .Border.round }}"
+        stroke-width="{{ .Border.stroke_width }}"
+    />
+
+    <g id="title">
+        <text
+            class="title"
+            x="{{ .Title.x }}"
+            y="{{ .Title.y }}"
+        >
+            {{ .Title.text }}
+        </text>
+    </g>
+
+    <g id="langs"> {{- range .Languages }} <g id="lang-{{ .text.text }}">
+            <rect
+                class="lang"
+                x="{{ .labelrect.x }}"
+                y="{{ .labelrect.y }}"
+                width="{{ .labelrect.width }}"
+                height="{{ .labelrect.height }}"
+                rx="{{ .labelrect.round }}"
+                ry="{{ .labelrect.round }}"
+                stroke="{{ .labelrect.stroke }}"
+            />
+            <text
+                class="descr"
+                x="{{ .labeltext.x }}"
+                y="{{ .labeltext.y }}"
+            >
+                {{ .labeltext.text }}
+            </text>
+            <text
+                class="descr"
+                x="{{ .share.x }}"
+                y="{{ .share.y }}"
+            >
+                {{ .share.text }}
+            </text>
+            <rect
+                class="graph"
+                x="{{ .graph.x }}"
+                y="{{ .graph.y }}"
+                width="{{ .graph.width }}"
+                height="{{ .graph.height }}"
+                rx="{{ .graph.round }}"
+                ry="{{ .graph.round }}"
+                fill="{{ .graph.fill }}"
+                stroke="{{ .graph.stroke }}"
+            />
+        </g> {{- end }} </g>
+
+    <g id="lastupdate">
+        <text
+            class="descr"
+            x="{{ .LastUpdate.x }}"
+            y="{{ .LastUpdate.y }}"
+        >
+            Last Update: {{ .LastUpdate.text }}
+        </text>
+    </g>
+</svg>
