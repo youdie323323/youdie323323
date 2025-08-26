@@ -13,7 +13,7 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@main
               with:
-                  repository: "youdie323323/KokiSanto"
+                  repository: "youdie323323/youdie323323"
                   ref: main
                   fetch-depth: 0
             - name: Setup Go
