@@ -1,48 +1,48 @@
 name: UpdateAssets
 
 on:
-    schedule:
-        - cron: "34 3 * * 0"
-    workflow_dispatch:
+  schedule:
+    - cron: "34 3 * * 0"
+  workflow_dispatch:
 
 jobs:
-    update-and-push:
-        name: Update json files, language card, and push them
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout repository
-              uses: actions/checkout@main
-              with:
-                  repository: "youdie323323/youdie323323"
-                  ref: main
-                  fetch-depth: 0
-            - name: Setup Go
-              uses: actions/setup-go@main
-              with:
-                  go-version: 1.25.0
-            - name: Prepare place for artifacts
-              run: |
-                  if [ ! -e newassets ]; then
-                    mkdir newassets
-                  fi
-            - name: Generate all
-              run: |
-                  cd scripts/update_assets
-                  go build .
-                  cd ../..
-                  GITHUB_TOKEN=${{ secrets.TOKEN }} \
-                    ./scripts/update_assets/update_assets \
-                    --config-dir=scripts/config \
-                    --out-dir=newassets \
-                    --template-dir=scripts/update_assets/view
-            - name: Commit changes
-              run: |
-                  git config --local user.email "131268899+youdie323323@users.noreply.github.com"
-                  git config --local user.name "youdie323323"
-                  if [ ! -e assets ]; then
-                    mkdir assets
-                  fi
-                  mv newassets/* assets/
-                  git add assets
-                  git commit -m "Update assets" -a || true
-                  git push -f origin main
+  update-and-push:
+    name: Update assets and push them
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@main
+        with:
+          repository: "youdie323323/youdie323323"
+          ref: main
+          fetch-depth: 0
+      - name: Setup Go
+        uses: actions/setup-go@main
+        with:
+          go-version: 1.25.0
+      - name: Prepare place for artifacts
+        run: |
+          if [ ! -e newassets ]; then
+            mkdir newassets
+          fi
+      - name: Generate all
+        run: |
+          cd scripts/update_assets
+          go build .
+          cd ../..
+          GITHUB_TOKEN=${{ secrets.TOKEN }} \
+            ./scripts/update_assets/update_assets \
+            --config-dir=scripts/config \
+            --out-dir=newassets \
+            --template-dir=scripts/update_assets/view
+      - name: Commit changes
+        run: |
+          git config --local user.email "131268899+youdie323323@users.noreply.github.com"
+          git config --local user.name "youdie323323"
+          if [ ! -e assets ]; then
+            mkdir assets
+          fi
+          mv newassets/* assets/
+          git add assets
+          git commit -m "Update assets" -a || true
+          git push -f origin main
