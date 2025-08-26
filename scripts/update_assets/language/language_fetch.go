@@ -10,7 +10,7 @@ import (
 )
 
 func getToken() string {
-	envVariable := "GITHUB_TOKEN"
+	envVariable := "TOKEN"
 
 	value, exists := os.LookupEnv(envVariable)
 	if !exists {
