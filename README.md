@@ -1,8 +1,4 @@
-<h1>
-  <div align="center">
-    Welcome
-  </div>
-</h1>
+# Welcome
 
 <h2>
   <div align="left">
