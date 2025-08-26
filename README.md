@@ -15,6 +15,9 @@
     Obfuscation
   </li>
   <li>
+    $\Large \textit{Mathematic}$
+  </li>
+  <li>
     Software design
   </li>
 </ul>
