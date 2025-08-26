@@ -13,15 +13,12 @@ jobs:
               uses: actions/checkout@main
               with:
                   repository: "youdie323323/KokiSanto"
-                  ref: dev
+                  ref: main
                   fetch-depth: 0
             - name: Setup Go
               uses: actions/setup-go@main
               with:
                   go-version: 1.25.0
-            - name: Check all branches
-              run: |
-                  git branch
             - name: Prepare place for artifacts
               run: |
                   if [ ! -e newassets ]; then
@@ -32,16 +29,15 @@ jobs:
                   cd scripts/update_assets
                   go build .
                   cd ../..
-                  GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} \
+                  GITHUB_TOKEN=${{ secrets.TOKEN }} \
                     ./scripts/update_assets/update_assets \
                     --config-dir=scripts/config \
                     --out-dir=newassets \
                     --template-dir=scripts/update_assets/view
             - name: Commit changes
               run: |
-                  git switch main
-                  git config --local user.email "36466440+NaokiHori@users.noreply.github.com"
-                  git config --local user.name "NaokiHori"
+                  git config --local user.email "131268899+youdie323323@users.noreply.github.com"
+                  git config --local user.name "youdie323323"
                   if [ ! -e assets ]; then
                     mkdir assets
                   fi
