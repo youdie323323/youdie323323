@@ -17,9 +17,6 @@
   <li>
     $\Large \textit{Mathematic}$
   </li>
-  <li>
-    Software design
-  </li>
 </ul>
 
 <h2>
