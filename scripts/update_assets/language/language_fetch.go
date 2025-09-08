@@ -11,7 +11,7 @@ import (
 
 const githubTokenKey = "GITHUB_TOKEN"
 
-func getToken() string {
+func lookupGithubToken() string {
 	value, exists := os.LookupEnv(githubTokenKey)
 	if !exists {
 		panic(fmt.Sprintf("Environment variable %s is not set", githubTokenKey))
@@ -26,7 +26,7 @@ func GithubAuthenticatedGet(url string) []byte {
 		panic(err)
 	}
 
-	token := getToken()
+	token := lookupGithubToken()
 
 	req.Header.Set("Accept", "application/vnd.github+json")
 	req.Header.Set("Authorization", fmt.Sprintf("Bearer %s", token))
@@ -62,6 +62,11 @@ func CreateRealtimeInformations() []Information {
 	statistics := make(Statistics)
 
 	for _, repo := range repos {
+		// Exclude fork
+		if fork, exists := repo["fork"]; exists && fork.(bool) {
+			continue
+		}
+
 		languageUsagesJson := GithubAuthenticatedGet(repo["languages_url"].(string))
 		if bytes.Contains(languageUsagesJson, []byte("Repository access blocked")) {
 			continue
