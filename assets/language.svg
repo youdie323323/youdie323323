@@ -1,7 +1,7 @@
 <svg
     version="1.1"
     width="500"
-    height="616"
+    height="360"
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     role="img"
@@ -46,7 +46,7 @@
         x="1"
         y="1"
         width="498"
-        height="614"
+        height="358"
         rx="10"
         ry="10"
         stroke-width="2"
@@ -58,7 +58,7 @@
             x="21.852"
             y="36"
         >
-            Language Stats (61.1MB)
+            Language Stats (2.2MB)
         </text>
     </g>
 
@@ -67,43 +67,7 @@
                 class="lang"
                 x="21.852"
                 y="60.8"
-                width="135.968"
-                height="22.4"
-                rx="4"
-                ry="4"
-                stroke="#ec915c"
-            />
-            <text
-                class="descr"
-                x="26.708"
-                y="72"
-            >
-                Zig
-            </text>
-            <text
-                class="descr"
-                x="172.38799999999998"
-                y="72"
-            >
-                94.94%
-            </text>
-            <rect
-                class="graph"
-                x="235.51599999999996"
-                y="60.8"
-                width="245.06000000000003"
-                height="22.4"
-                rx="4"
-                ry="4"
-                fill="#ec915c"
-                stroke="#ec915c"
-            />
-        </g> <g id="lang-">
-            <rect
-                class="lang"
-                x="21.852"
-                y="92.8"
-                width="135.968"
+                width="106.83200000000001"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -112,22 +76,22 @@
             <text
                 class="descr"
                 x="26.708"
-                y="104"
+                y="72"
             >
                 TypeScript
             </text>
             <text
                 class="descr"
-                x="182.1"
-                y="104"
+                x="143.25199999999998"
+                y="72"
             >
-                1.34%
+                38.02%
             </text>
             <rect
                 class="graph"
-                x="235.51599999999996"
-                y="92.8"
-                width="3.4587341846308344"
+                x="206.38"
+                y="60.8"
+                width="274.19599999999997"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -138,44 +102,8 @@
             <rect
                 class="lang"
                 x="21.852"
-                y="124.8"
-                width="135.968"
-                height="22.4"
-                rx="4"
-                ry="4"
-                stroke="#555555"
-            />
-            <text
-                class="descr"
-                x="26.708"
-                y="136"
-            >
-                C
-            </text>
-            <text
-                class="descr"
-                x="182.1"
-                y="136"
-            >
-                1.24%
-            </text>
-            <rect
-                class="graph"
-                x="235.51599999999996"
-                y="124.8"
-                width="3.1897010600521094"
-                height="22.4"
-                rx="4"
-                ry="4"
-                fill="#555555"
-                stroke="#555555"
-            />
-        </g> <g id="lang-">
-            <rect
-                class="lang"
-                x="21.852"
-                y="156.8"
-                width="135.968"
+                y="92.8"
+                width="106.83200000000001"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -184,22 +112,22 @@
             <text
                 class="descr"
                 x="26.708"
-                y="168"
+                y="104"
             >
                 JavaScript
             </text>
             <text
                 class="descr"
-                x="182.1"
-                y="168"
+                x="143.25199999999998"
+                y="104"
             >
-                1.21%
+                32.26%
             </text>
             <rect
                 class="graph"
-                x="235.51599999999996"
-                y="156.8"
-                width="3.1265639230255067"
+                x="206.38"
+                y="92.8"
+                width="232.70054160291508"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -210,44 +138,44 @@
             <rect
                 class="lang"
                 x="21.852"
-                y="188.8"
-                width="135.968"
+                y="124.8"
+                width="106.83200000000001"
                 height="22.4"
                 rx="4"
                 ry="4"
-                stroke="#f34b7d"
+                stroke="#ec915c"
             />
             <text
                 class="descr"
                 x="26.708"
-                y="200"
+                y="136"
             >
-                C&#43;&#43;
+                Zig
             </text>
             <text
                 class="descr"
-                x="182.1"
-                y="200"
+                x="143.25199999999998"
+                y="136"
             >
-                0.61%
+                19.32%
             </text>
             <rect
                 class="graph"
-                x="235.51599999999996"
-                y="188.8"
-                width="1.5755708303792781"
+                x="206.38"
+                y="124.8"
+                width="139.3542923851219"
                 height="22.4"
                 rx="4"
                 ry="4"
-                fill="#f34b7d"
-                stroke="#f34b7d"
+                fill="#ec915c"
+                stroke="#ec915c"
             />
         </g> <g id="lang-">
             <rect
                 class="lang"
                 x="21.852"
-                y="220.8"
-                width="135.968"
+                y="156.8"
+                width="106.83200000000001"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -256,22 +184,22 @@
             <text
                 class="descr"
                 x="26.708"
-                y="232"
+                y="168"
             >
                 Go
             </text>
             <text
                 class="descr"
-                x="182.1"
-                y="232"
+                x="152.964"
+                y="168"
             >
-                0.35%
+                9.86%
             </text>
             <rect
                 class="graph"
-                x="235.51599999999996"
-                y="220.8"
-                width="0.8965554066953478"
+                x="206.38"
+                y="156.8"
+                width="71.11147268364817"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -282,188 +210,8 @@
             <rect
                 class="lang"
                 x="21.852"
-                y="252.8"
-                width="135.968"
-                height="22.4"
-                rx="4"
-                ry="4"
-                stroke="#3572A5"
-            />
-            <text
-                class="descr"
-                x="26.708"
-                y="264"
-            >
-                Python
-            </text>
-            <text
-                class="descr"
-                x="182.1"
-                y="264"
-            >
-                0.12%
-            </text>
-            <rect
-                class="graph"
-                x="235.51599999999996"
-                y="252.8"
-                width="0.29998301766696506"
-                height="22.4"
-                rx="4"
-                ry="4"
-                fill="#3572A5"
-                stroke="#3572A5"
-            />
-        </g> <g id="lang-">
-            <rect
-                class="lang"
-                x="21.852"
-                y="284.8"
-                width="135.968"
-                height="22.4"
-                rx="4"
-                ry="4"
-                stroke="#DA3434"
-            />
-            <text
-                class="descr"
-                x="26.708"
-                y="296"
-            >
-                CMake
-            </text>
-            <text
-                class="descr"
-                x="182.1"
-                y="296"
-            >
-                0.08%
-            </text>
-            <rect
-                class="graph"
-                x="235.51599999999996"
-                y="284.8"
-                width="0.21479927103069013"
-                height="22.4"
-                rx="4"
-                ry="4"
-                fill="#DA3434"
-                stroke="#DA3434"
-            />
-        </g> <g id="lang-">
-            <rect
-                class="lang"
-                x="21.852"
-                y="316.8"
-                width="135.968"
-                height="22.4"
-                rx="4"
-                ry="4"
-                stroke="#e34c26"
-            />
-            <text
-                class="descr"
-                x="26.708"
-                y="328"
-            >
-                HTML
-            </text>
-            <text
-                class="descr"
-                x="182.1"
-                y="328"
-            >
-                0.05%
-            </text>
-            <rect
-                class="graph"
-                x="235.51599999999996"
-                y="316.8"
-                width="0.12005124567343671"
-                height="22.4"
-                rx="4"
-                ry="4"
-                fill="#e34c26"
-                stroke="#e34c26"
-            />
-        </g> <g id="lang-">
-            <rect
-                class="lang"
-                x="21.852"
-                y="348.8"
-                width="135.968"
-                height="22.4"
-                rx="4"
-                ry="4"
-                stroke="#89e051"
-            />
-            <text
-                class="descr"
-                x="26.708"
-                y="360"
-            >
-                Shell
-            </text>
-            <text
-                class="descr"
-                x="182.1"
-                y="360"
-            >
-                0.03%
-            </text>
-            <rect
-                class="graph"
-                x="235.51599999999996"
-                y="348.8"
-                width="0.08210850657554732"
-                height="22.4"
-                rx="4"
-                ry="4"
-                fill="#89e051"
-                stroke="#89e051"
-            />
-        </g> <g id="lang-">
-            <rect
-                class="lang"
-                x="21.852"
-                y="380.8"
-                width="135.968"
-                height="22.4"
-                rx="4"
-                ry="4"
-                stroke="#012456"
-            />
-            <text
-                class="descr"
-                x="26.708"
-                y="392"
-            >
-                PowerShell
-            </text>
-            <text
-                class="descr"
-                x="182.1"
-                y="392"
-            >
-                0.02%
-            </text>
-            <rect
-                class="graph"
-                x="235.51599999999996"
-                y="380.8"
-                width="0.04555627576199742"
-                height="22.4"
-                rx="4"
-                ry="4"
-                fill="#012456"
-                stroke="#012456"
-            />
-        </g> <g id="lang-">
-            <rect
-                class="lang"
-                x="21.852"
-                y="412.8"
-                width="135.968"
+                y="188.8"
+                width="106.83200000000001"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -472,22 +220,22 @@
             <text
                 class="descr"
                 x="26.708"
-                y="424"
+                y="200"
             >
                 CSS
             </text>
             <text
                 class="descr"
-                x="182.1"
-                y="424"
+                x="152.964"
+                y="200"
             >
-                0.02%
+                0.27%
             </text>
             <rect
                 class="graph"
-                x="235.51599999999996"
-                y="412.8"
-                width="0.04426652894753762"
+                x="206.38"
+                y="188.8"
+                width="1.974315747032275"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -498,116 +246,80 @@
             <rect
                 class="lang"
                 x="21.852"
-                y="444.8"
-                width="135.968"
+                y="220.8"
+                width="106.83200000000001"
                 height="22.4"
                 rx="4"
                 ry="4"
-                stroke="#438eff"
+                stroke="#e34c26"
             />
             <text
                 class="descr"
                 x="26.708"
-                y="456"
+                y="232"
             >
-                Objective-C
+                HTML
             </text>
             <text
                 class="descr"
-                x="182.1"
-                y="456"
+                x="152.964"
+                y="232"
             >
-                0.00%
+                0.23%
             </text>
             <rect
                 class="graph"
-                x="235.51599999999996"
-                y="444.8"
-                width="0.0036798088800056306"
+                x="206.38"
+                y="220.8"
+                width="1.6896231866494045"
                 height="22.4"
                 rx="4"
                 ry="4"
-                fill="#438eff"
-                stroke="#438eff"
+                fill="#e34c26"
+                stroke="#e34c26"
             />
         </g> <g id="lang-">
             <rect
                 class="lang"
                 x="21.852"
-                y="476.8"
-                width="135.968"
+                y="252.8"
+                width="106.83200000000001"
                 height="22.4"
                 rx="4"
                 ry="4"
-                stroke=""
+                stroke="#89e051"
             />
             <text
                 class="descr"
                 x="26.708"
-                y="488"
+                y="264"
             >
-                Linker Script
+                Shell
             </text>
             <text
                 class="descr"
-                x="182.1"
-                y="488"
+                x="152.964"
+                y="264"
             >
-                0.00%
+                0.02%
             </text>
             <rect
                 class="graph"
-                x="235.51599999999996"
-                y="476.8"
-                width="0.0027286206043415245"
+                x="206.38"
+                y="252.8"
+                width="0.1492159659919198"
                 height="22.4"
                 rx="4"
                 ry="4"
-                fill=""
-                stroke=""
+                fill="#89e051"
+                stroke="#89e051"
             />
         </g> <g id="lang-">
             <rect
                 class="lang"
                 x="21.852"
-                y="508.8"
-                width="135.968"
-                height="22.4"
-                rx="4"
-                ry="4"
-                stroke="#6E4C13"
-            />
-            <text
-                class="descr"
-                x="26.708"
-                y="520"
-            >
-                Assembly
-            </text>
-            <text
-                class="descr"
-                x="182.1"
-                y="520"
-            >
-                0.00%
-            </text>
-            <rect
-                class="graph"
-                x="235.51599999999996"
-                y="508.8"
-                width="0.00174921911711111"
-                height="22.4"
-                rx="4"
-                ry="4"
-                fill="#6E4C13"
-                stroke="#6E4C13"
-            />
-        </g> <g id="lang-">
-            <rect
-                class="lang"
-                x="21.852"
-                y="540.8"
-                width="135.968"
+                y="284.8"
+                width="106.83200000000001"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -616,22 +328,22 @@
             <text
                 class="descr"
                 x="26.708"
-                y="552"
+                y="296"
             >
                 Dockerfile
             </text>
             <text
                 class="descr"
-                x="182.1"
-                y="552"
+                x="152.964"
+                y="296"
             >
-                0.00%
+                0.01%
             </text>
             <rect
                 class="graph"
-                x="235.51599999999996"
-                y="540.8"
-                width="0.0009592491932544798"
+                x="206.38"
+                y="284.8"
+                width="0.07604582421001481"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -644,9 +356,9 @@
         <text
             class="descr"
             x="21.852"
-            y="592"
+            y="336"
         >
-            Last Update: 7 September 2025
+            Last Update: 8 September 2025
         </text>
     </g>
 </svg>
