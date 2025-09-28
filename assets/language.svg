@@ -85,7 +85,7 @@
                 x="143.25199999999998"
                 y="72"
             >
-                38.46%
+                38.41%
             </text>
             <rect
                 class="graph"
@@ -121,13 +121,13 @@
                 x="143.25199999999998"
                 y="104"
             >
-                31.95%
+                31.86%
             </text>
             <rect
                 class="graph"
                 x="206.38"
                 y="92.8"
-                width="227.78295744964774"
+                width="227.43069878184463"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -157,13 +157,13 @@
                 x="143.25199999999998"
                 y="136"
             >
-                19.13%
+                19.08%
             </text>
             <rect
                 class="graph"
                 x="206.38"
                 y="124.8"
-                width="136.3941940000433"
+                width="136.18326497527133"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -193,13 +193,13 @@
                 x="152.964"
                 y="168"
             >
-                9.76%
+                9.73%
             </text>
             <rect
                 class="graph"
                 x="206.38"
                 y="156.8"
-                width="69.60095620189033"
+                width="69.49332066855628"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -235,7 +235,7 @@
                 class="graph"
                 x="206.38"
                 y="188.8"
-                width="2.4846650387272415"
+                width="2.5239130243665238"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -251,32 +251,32 @@
                 height="22.4"
                 rx="4"
                 ry="4"
-                stroke="#e34c26"
+                stroke=""
             />
             <text
                 class="descr"
                 x="26.708"
                 y="232"
             >
-                HTML
+                MDX
             </text>
             <text
                 class="descr"
                 x="152.964"
                 y="232"
             >
-                0.23%
+                0.31%
             </text>
             <rect
                 class="graph"
                 x="206.38"
                 y="220.8"
-                width="1.6537330050081376"
+                width="2.1954265092565914"
                 height="22.4"
                 rx="4"
                 ry="4"
-                fill="#e34c26"
-                stroke="#e34c26"
+                fill=""
+                stroke=""
             />
         </g> <g id="lang-">
             <rect
@@ -287,32 +287,32 @@
                 height="22.4"
                 rx="4"
                 ry="4"
-                stroke=""
+                stroke="#e34c26"
             />
             <text
                 class="descr"
                 x="26.708"
                 y="264"
             >
-                MDX
+                HTML
             </text>
             <text
                 class="descr"
                 x="152.964"
                 y="264"
             >
-                0.08%
+                0.23%
             </text>
             <rect
                 class="graph"
                 x="206.38"
                 y="252.8"
-                width="0.5569777764598134"
+                width="1.6511755626438422"
                 height="22.4"
                 rx="4"
                 ry="4"
-                fill=""
-                stroke=""
+                fill="#e34c26"
+                stroke="#e34c26"
             />
         </g> <g id="lang-">
             <rect
@@ -343,7 +343,7 @@
                 class="graph"
                 x="206.38"
                 y="284.8"
-                width="0.1460463905708775"
+                width="0.1458205347493711"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -379,7 +379,7 @@
                 class="graph"
                 x="206.38"
                 y="316.8"
-                width="0.07443049455218169"
+                width="0.07431539030053602"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -394,7 +394,7 @@
             x="21.852"
             y="368"
         >
-            Last Update: 21 September 2025
+            Last Update: 28 September 2025
         </text>
     </g>
 </svg>
