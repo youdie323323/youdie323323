@@ -12,10 +12,7 @@
 
 <ul>
   <li>
-    Obfuscation
-  </li>
-  <li>
-    $\Large \textit{Mathematic}$
+    Real Life
   </li>
 </ul>
 
