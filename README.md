@@ -29,6 +29,8 @@
   </div>
 </div>
 
+<br />
+
 <div align="center">
   <img src="assets/language.svg" />
 </div>
