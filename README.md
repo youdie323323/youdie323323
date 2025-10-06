@@ -4,7 +4,9 @@
   </div>
 </h1>
 
-![Signature](assets/signature.svg)
+<div align="center">
+  <img src="assets/signature.svg" alt="Signature" style="width: 75%;">
+</div>
 
 <h2>
   <div align="left">
