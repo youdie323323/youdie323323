@@ -4,6 +4,8 @@
   </div>
 </h1>
 
+![Signature](assets/signature.svg)
+
 <h2>
   <div align="left">
     Interest
