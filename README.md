@@ -5,7 +5,10 @@
 </h1>
 
 <div align="center">
-  <img src="assets/signature.svg" alt="Signature" style="width: 75%;">
+  <picture style="width: 75%;">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/signature-white.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/signature-black.png">
+  </picture>
 </div>
 
 <h2>
