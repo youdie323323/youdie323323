@@ -5,9 +5,10 @@
 </h1>
 
 <div align="center">
-  <picture style="width: 75%;">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/signature-white.png">
-    <source media="(prefers-color-scheme: light)" srcset="assets/signature-black.png">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/signature-white.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/signature-black.svg">
+    <img alt="Signature unshowable" src="not-defined.png">
   </picture>
 </div>
 
