@@ -8,6 +8,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/signature-white.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/signature-black.svg">
+    <img alt="Signature unshowable" src="not-defined.png">
   </picture>
 </div>
 
