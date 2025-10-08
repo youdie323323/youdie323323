@@ -50,3 +50,7 @@
     </a>
   </li>
 </ul>
+
+<h2>
+  <img src="assets/biography.png" />
+</h2>
