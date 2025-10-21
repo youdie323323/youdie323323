@@ -1,17 +1,3 @@
-<h1>
-  <div align="center">
-    Welcome
-  </div>
-</h1>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/signature-white.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/signature-black.svg">
-    <img alt="Signature unshowable" src="not-defined.png">
-  </picture>
-</div>
-
 <h2>
   Skill
 </h2>
@@ -38,19 +24,3 @@
 <div align="center">
   <img src="assets/language.svg" />
 </div>
-
-<h2>
-  Platform
-</h2>
-
-<ul>
-  <li>
-    <a href="https://gitlab.com/youdie323323" target="_blank">
-      GitLab
-    </a>
-  </li>
-</ul>
-
-<h2>
-  <img src="assets/biography.png" />
-</h2>
