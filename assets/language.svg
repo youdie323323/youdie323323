@@ -1,7 +1,7 @@
 <svg
     version="1.1"
     width="500"
-    height="360"
+    height="392"
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     role="img"
@@ -46,7 +46,7 @@
         x="1"
         y="1"
         width="498"
-        height="358"
+        height="390"
         rx="10"
         ry="10"
         stroke-width="2"
@@ -85,7 +85,7 @@
                 x="143.25199999999998"
                 y="72"
             >
-                38.02%
+                38.44%
             </text>
             <rect
                 class="graph"
@@ -121,13 +121,13 @@
                 x="143.25199999999998"
                 y="104"
             >
-                32.26%
+                31.84%
             </text>
             <rect
                 class="graph"
                 x="206.38"
                 y="92.8"
-                width="232.70406680992286"
+                width="227.06997513660767"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -157,13 +157,13 @@
                 x="143.25199999999998"
                 y="136"
             >
-                19.32%
+                19.06%
             </text>
             <rect
                 class="graph"
                 x="206.38"
                 y="124.8"
-                width="139.3564034791688"
+                width="135.9672672052901"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -193,13 +193,13 @@
                 x="152.964"
                 y="168"
             >
-                9.86%
+                9.73%
             </text>
             <rect
                 class="graph"
                 x="206.38"
                 y="156.8"
-                width="71.11254995944698"
+                width="69.38309859174144"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -229,13 +229,13 @@
                 x="152.964"
                 y="200"
             >
-                0.27%
+                0.36%
             </text>
             <rect
                 class="graph"
                 x="206.38"
                 y="188.8"
-                width="1.9743456561663884"
+                width="2.54859128667032"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -251,27 +251,63 @@
                 height="22.4"
                 rx="4"
                 ry="4"
-                stroke="#e34c26"
+                stroke=""
             />
             <text
                 class="descr"
                 x="26.708"
                 y="232"
             >
-                HTML
+                MDX
             </text>
             <text
                 class="descr"
                 x="152.964"
                 y="232"
             >
-                0.23%
+                0.31%
             </text>
             <rect
                 class="graph"
                 x="206.38"
                 y="220.8"
-                width="1.689648782943496"
+                width="2.191944383679391"
+                height="22.4"
+                rx="4"
+                ry="4"
+                fill=""
+                stroke=""
+            />
+        </g> <g id="lang-">
+            <rect
+                class="lang"
+                x="21.852"
+                y="252.8"
+                width="106.83200000000001"
+                height="22.4"
+                rx="4"
+                ry="4"
+                stroke="#e34c26"
+            />
+            <text
+                class="descr"
+                x="26.708"
+                y="264"
+            >
+                HTML
+            </text>
+            <text
+                class="descr"
+                x="152.964"
+                y="264"
+            >
+                0.23%
+            </text>
+            <rect
+                class="graph"
+                x="206.38"
+                y="252.8"
+                width="1.6485566634755537"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -282,7 +318,7 @@
             <rect
                 class="lang"
                 x="21.852"
-                y="252.8"
+                y="284.8"
                 width="106.83200000000001"
                 height="22.4"
                 rx="4"
@@ -292,22 +328,22 @@
             <text
                 class="descr"
                 x="26.708"
-                y="264"
+                y="296"
             >
                 Shell
             </text>
             <text
                 class="descr"
                 x="152.964"
-                y="264"
+                y="296"
             >
                 0.02%
             </text>
             <rect
                 class="graph"
                 x="206.38"
-                y="252.8"
-                width="0.14921822648158334"
+                y="284.8"
+                width="0.14558925148318524"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -318,7 +354,7 @@
             <rect
                 class="lang"
                 x="21.852"
-                y="284.8"
+                y="316.8"
                 width="106.83200000000001"
                 height="22.4"
                 rx="4"
@@ -328,22 +364,22 @@
             <text
                 class="descr"
                 x="26.708"
-                y="296"
+                y="328"
             >
                 Dockerfile
             </text>
             <text
                 class="descr"
                 x="152.964"
-                y="296"
+                y="328"
             >
                 0.01%
             </text>
             <rect
                 class="graph"
                 x="206.38"
-                y="284.8"
-                width="0.07604697623686688"
+                y="316.8"
+                width="0.07419752002783317"
                 height="22.4"
                 rx="4"
                 ry="4"
@@ -356,9 +392,9 @@
         <text
             class="descr"
             x="21.852"
-            y="336"
+            y="368"
         >
-            Last Update: 9 November 2025
+            Last Update: 16 November 2025
         </text>
     </g>
 </svg>
